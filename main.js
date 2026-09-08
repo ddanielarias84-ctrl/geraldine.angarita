@@ -1,0 +1,1 @@
+const b=document.querySelector('.menu-btn'),m=document.querySelector('.mobile-menu');b?.addEventListener('click',()=>m.classList.toggle('open'));const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
