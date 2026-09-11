@@ -1,0 +1,1 @@
+Portrait file provided in chat on 2026-09-11.
